@@ -1,0 +1,134 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.examly.springapp:SpringBootEmp[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding SpringBootEmp 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.4.0:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mSpringBootEmp[0;1m >>>[m
+[[1;33mWARNING[m] The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mSpringBootEmp[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 0 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m @ [36mSpringBootEmp[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged source code[m.
+[[1;34mINFO[m] Compiling 18 source files with javac [debug parameters release 17] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mSpringBootEmp[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/coder/project/workspace/springapp/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mSpringBootEmp[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged dependency[m.
+[[1;34mINFO[m] Compiling 1 source file with javac [debug parameters release 17] to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.4.0:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mSpringBootEmp[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.4.0:run[m [1m(default-cli)[m @ [36mSpringBootEmp[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2025-10-13T14:42:11.709Z  INFO 14459 --- [  restartedMain] c.examly.springapp.SpringappApplication  : Starting SpringappApplication using Java 17.0.15 with PID 14459 (/home/coder/project/workspace/springapp/target/classes started by coder in /home/coder/project/workspace/springapp)
+2025-10-13T14:42:11.711Z  INFO 14459 --- [  restartedMain] c.examly.springapp.SpringappApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T14:42:11.743Z  INFO 14459 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-13T14:42:11.743Z  INFO 14459 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-13T14:42:12.278Z  INFO 14459 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-13T14:42:12.323Z  INFO 14459 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 3 JPA repository interfaces.
+2025-10-13T14:42:12.761Z  INFO 14459 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T14:42:12.772Z  INFO 14459 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T14:42:12.772Z  INFO 14459 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-10-13T14:42:12.802Z  INFO 14459 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T14:42:12.803Z  INFO 14459 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1059 ms
+2025-10-13T14:42:12.908Z  INFO 14459 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-13T14:42:12.941Z  INFO 14459 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-10-13T14:42:12.963Z  INFO 14459 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-13T14:42:13.146Z  INFO 14459 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-13T14:42:13.168Z  INFO 14459 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-13T14:42:13.288Z  INFO 14459 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d6b0de8
+2025-10-13T14:42:13.289Z  INFO 14459 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-13T14:42:13.305Z  WARN 14459 --- [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-13T14:42:13.306Z  WARN 14459 --- [  restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-13T14:42:13.318Z  INFO 14459 --- [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-13T14:42:13.919Z  INFO 14459 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists care_plans
+Hibernate: drop table if exists plants
+Hibernate: drop table if exists users
+Hibernate: create table care_plans (fertilizing_frequency integer not null, sunlight_hours integer not null, watering_frequency integer not null, id bigint not null auto_increment, plant_type varchar(255), tips varchar(255), primary key (id)) engine=InnoDB
+Hibernate: create table plants (last_watered_date date, created_at datetime(6), fertilizing_frequency bigint, id bigint not null auto_increment, sunlight_hours bigint, user_id bigint, watering_frequency bigint, plant_name varchar(255) not null, primary key (id)) engine=InnoDB
+Hibernate: create table users (active bit not null, created_at datetime(6), id bigint not null auto_increment, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, role enum ('ADMIN','GUEST','USER'), primary key (id)) engine=InnoDB
+Hibernate: alter table users add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+Hibernate: alter table users add constraint UKr43af9ap4edm43mmtq01oddj6 unique (username)
+2025-10-13T14:42:14.052Z  INFO 14459 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-13T14:42:14.231Z  INFO 14459 --- [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-13T14:42:14.753Z  WARN 14459 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-13T14:42:14.782Z  INFO 14459 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-10-13T14:42:15.173Z  INFO 14459 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T14:42:15.197Z  INFO 14459 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T14:42:15.206Z  INFO 14459 --- [  restartedMain] c.examly.springapp.SpringappApplication  : Started SpringappApplication in 3.75 seconds (process running for 3.998)
+Initializing User data...
+Hibernate: select count(*) from users u1_0
+No Users found. Adding sample data...
+Hibernate: insert into users (active,created_at,email,password,role,username) values (?,?,?,?,?,?)
+Hibernate: insert into users (active,created_at,email,password,role,username) values (?,?,?,?,?,?)
+Hibernate: insert into users (active,created_at,email,password,role,username) values (?,?,?,?,?,?)
+Hibernate: insert into users (active,created_at,email,password,role,username) values (?,?,?,?,?,?)
+Hibernate: insert into users (active,created_at,email,password,role,username) values (?,?,?,?,?,?)
+Hibernate: insert into users (active,created_at,email,password,role,username) values (?,?,?,?,?,?)
+Hibernate: select count(*) from users u1_0
+Successfully added 6 Users to database.
+Initializing CarePlan data...
+Hibernate: select count(*) from care_plans cp1_0
+No CarePlans found. Adding sample data...
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: insert into care_plans (fertilizing_frequency,plant_type,sunlight_hours,tips,watering_frequency) values (?,?,?,?,?)
+Hibernate: select count(*) from care_plans cp1_0
+Successfully added 21 CarePlans to database.
+2025-10-13T14:44:00.230Z  INFO 14459 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13T14:44:00.230Z  INFO 14459 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-13T14:44:00.231Z  INFO 14459 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-13T14:44:14.553Z  INFO 14459 --- [nio-8080-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 248 ms
+Hibernate: select count(*) from users u1_0
+Hibernate: select u1_0.id,u1_0.active,u1_0.created_at,u1_0.email,u1_0.password,u1_0.role,u1_0.username from users u1_0 where u1_0.role=?
+Hibernate: select u1_0.id,u1_0.active,u1_0.created_at,u1_0.email,u1_0.password,u1_0.role,u1_0.username from users u1_0 where u1_0.role=?
+Hibernate: select count(*) from users u1_0
+Hibernate: select count(*) from users u1_0
+2025-10-13T14:54:42.359Z  INFO 14459 --- [ionShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T14:54:42.361Z  INFO 14459 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T14:54:42.364Z  INFO 14459 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-13T14:54:42.367Z  INFO 14459 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-13T14:54:42.373Z  INFO 14459 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
