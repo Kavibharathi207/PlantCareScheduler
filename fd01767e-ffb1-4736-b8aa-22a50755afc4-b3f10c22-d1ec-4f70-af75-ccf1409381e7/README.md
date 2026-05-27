@@ -134,7 +134,6 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 | Role  | Username | Password      |
 |-------|----------|---------------|
 | Admin | `admin`  | `Admin@123`   |
-| User  | `kavii`  | `Kavii@0712#` |
 | User  | `user`   | `user123`     |
 | Guest | —        | Click "Continue as Guest" |
 
